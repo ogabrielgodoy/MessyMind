@@ -80,7 +80,7 @@
         <?php
         require_once('script/connectdb.php');
         $hora = date('H:i');
-        $sql = "SELECT * FROM tbtexto ORDER BY tbtexto.id ASC";
+        $sql = "SELECT * FROM tbtexto ORDER BY tbtexto.id DESC";
         $result = mysqli_query($conn,$sql);
 
         foreach ($result as $r) {?>
@@ -174,7 +174,7 @@
                   >
 
                   <a
-                    href=""
+                    href="https://github.com/ogabrielgodoy/MessyMind"
                     target="_blank"
                     class="footer-link me-4"
                     >Repository</a
@@ -195,6 +195,10 @@
       <div class="layout-overlay layout-menu-toggle"></div>
     </div>
     <!-- / Layout wrapper -->
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
