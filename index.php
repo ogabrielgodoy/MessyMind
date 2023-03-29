@@ -61,6 +61,10 @@
 
         <?php require_once('menu.php'); ?>
 
+        <div class="buy-now">
+      <a href="formpost.php" class="btn btn-danger btn-buy-now">Nova postagem</a>
+    </div>
+
         <!-- Layout container -->
         <div class="layout-page">
           
@@ -80,7 +84,7 @@
         <?php
         require_once('script/connectdb.php');
         $hora = date('H:i');
-        $sql = "SELECT * FROM tbtexto ORDER BY tbtexto.id DESC";
+        $sql = "SELECT * FROM tbtexto ORDER BY tbtexto.id DESC LIMIT 30";
         $result = mysqli_query($conn,$sql);
 
         foreach ($result as $r) {?>
