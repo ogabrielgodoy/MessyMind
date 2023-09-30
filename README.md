@@ -6,5 +6,3 @@ MessyMind é um bloco de notas virtual, foi criado para ser um espaço para o us
 Existe 5 opções de cores na hora de criar um post, onde cada cor se relaciona com um tipo de sentimento.
 
 Projeto desenvolvido em Php puro com banco de dados Mysqli e bootstrap (html, css e js).
-
-ONLINE EM: shelfgera.com.br
