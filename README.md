@@ -28,6 +28,6 @@ O objetivo do MessyMind é oferecer um ambiente onde os usuários podem expressa
 
 ## Autor
 
-- **Seu Nome**
+- **Gabriel Godoy**
 
 O MessyMind é uma ferramenta valiosa para aqueles que desejam compartilhar e organizar seus pensamentos e sentimentos.
